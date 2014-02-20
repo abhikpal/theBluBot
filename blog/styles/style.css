@@ -1,0 +1,104 @@
+body
+{
+	margin: 0px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: rgb(33, 135, 187);
+	box-shadow: rgba(50, 51, 51, 0.75) 0px 0px 100px inset;
+}
+
+#main
+{
+	background-color: white;
+	min-height: 1000px;
+	width: 920px;
+	padding: 10px;
+	margin: auto;
+	box-shadow: rgba(220, 220, 220, 0.75) 0px 0px 50px;
+}
+
+.code,
+.updateMain
+{
+	width: 700px;
+	padding: 0px;
+	margin: auto;
+	margin-top: 25px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	box-shadow: rgba(51, 51, 51, 0.5) 0px 0px 5px;
+	transition: all 1s;
+	-o-transition: all 1s;
+    -ie-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.code:hover,
+.updateMain:hover
+{
+	box-shadow: rgb(51, 51, 51) 0px 0px 20px;
+}
+
+.code > #source,
+.updateMain > .update
+{
+	padding: 15px;
+	margin: 0px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: rgb(220, 220, 220) 0px 0px 50px inset;
+	
+}
+
+.code > #fileName,
+.updateMain > #updateTitle
+{
+	min-height: 25px;
+	margin-bottom: 0px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: "Consolas";
+	background-color: rgb(51, 51, 51);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: rgb(220, 220, 200);
+	
+}
+
+.code > #fileName > img,
+.updateMain > #updateTitle > img
+{
+	width: 25px;
+	height: 25px;
+	vertical-align: bottom;
+	margin: auto;
+	margin-right: 5px;
+
+}
+
+.hideAllIco
+{
+	float: right;
+}
+
+.showAllIco
+{
+	float: right;
+}
+
+.updateMain > #updateTitle
+{
+	background-color: rgb(14, 108, 40);
+}
+
+.updateMain > .update
+{
+	box-shadow: rgb(128, 195, 66) 0px 0px 50px inset;
+}
+
+pre,
+.update,
+.code
+{
+	font-family: "Consolas";
+}
